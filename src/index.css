@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-family-pixelated {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.font-family-cursive {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.image-rendering-pixelated {
+    image-rendering: pixelated;
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+  
+    border-radius: 100%;  
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-scaleout {
+    0% { -webkit-transform: scale(0) }
+    100% {
+      -webkit-transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes sk-scaleout {
+    0% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 100% {
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+      opacity: 0;
+    }
+  }
