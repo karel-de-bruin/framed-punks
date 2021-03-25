@@ -36,7 +36,7 @@
                   </a>
               </div>
               <div>
-                  <a class="flex items-center text-blue-500 hover:text-blue-700 " href="https://opensea.io/collection/framed-punks" target="_blank">
+                  <a class="flex items-center text-blue-500 hover:text-blue-700 " href="https://opensea.io/collection/framed-punks-v2" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-6 h-6" aria-hidden="true">
                       <path d="M8.2,9.3L5.5,8c0,0-0.1,0-0.2,0.1l-2.8,7.1c0,0.1,0,0.2,0.1,0.2h5.4c0.1,0,0.1,0,0.1-0.1L8.2,9.3 C8.3,9.3,8.2,9.3,8.2,9.3z M23.9,16.4c-0.1-0.1-0.2-0.1-0.4,0l-0.3,0.1c-1.6,0.8-3.4,1.2-5.2,1.2c-0.1,0-0.1,0-0.1,0.1 c-0.2,0.9-0.9,1.5-1.8,1.5h-3.7v-3.1h0c0.2,0,0.4,0,0.7,0.1c1.6,0.2,2.3,1,2.7,1.3l0,0l0,0c0,0,0.1,0,0.2,0c0,0,0.1-0.1,0.2-0.1 c0.6-0.4,1.9-1.2,1.9-5.5c0-4.4-3.3-7.3-3.7-7.5l0,0l0,0l0,0l0,0l-1.9-0.1h0V3.1C12.7,2.9,13,2.5,13,2c0-0.8-0.6-1.4-1.3-1.4 S10.3,1.2,10.3,2c0,0.5,0.2,0.9,0.7,1.1v1L8.2,3.9C8,3.9,7.9,4,8,4.1c0.5,0.8,1.8,3.1,1.9,6.7c0.1,3.3-0.4,4.9-0.7,5.5 c0,0,0,0.1,0,0.1l0,0c0,0,0.1,0,0.1,0c0.3,0,0.9-0.1,1.6-0.2v3.1H7.9c-1,0-1.9-0.9-1.9-1.9v-0.8c0-0.1,0-0.1-0.1-0.1H0.1 c0,0-0.1,0-0.1,0.1c0,0.1,0,0.3,0,0.4c0,2.1,0.6,4.1,1.7,5.8c0.2,0.3,0.5,0.4,0.8,0.3L3.1,23c0.5-0.2,1-0.2,1.6,0l0.7,0.3 c0.5,0.2,1,0.2,1.6,0L7.6,23c0.5-0.2,1-0.2,1.6,0l0.7,0.3c0.5,0.2,1,0.2,1.6,0L12,23c0.5-0.2,1-0.2,1.6,0l0.7,0.3 c0.5,0.2,1,0.2,1.6,0l0.7-0.3c0.5-0.2,1-0.2,1.6,0l0.7,0.3c0.4,0.2,0.9,0,1.1-0.5c0.4-0.6,0.7-1.3,1-2c0.5-1.6,1.5-3,2.9-3.8 c0.1,0,0.2-0.2,0.2-0.3C24,16.6,24,16.5,23.9,16.4z"  fill="currentColor"/>
                     </svg>
@@ -51,29 +51,28 @@
         <div class="grid grid-cols-2 md:grid-cols-4 my-24">
           <artwork
               class="mr-2"
-              :punk-id="getRandomPunkId()"
-              :frame-id="'0008'"
-              :key="componentKey">
+              :punk-id="punkIds[0]"
+              :frame-id="frameIds[0]"
+              :allow-click="true">
           </artwork>
           <artwork
               class="mr-2"
-              :punk-id="getRandomPunkId()"
-              :frame-id="'0003'"
-              :key="componentKey">
+              :punk-id="punkIds[1]"
+              :frame-id="frameIds[1]"
+              :allow-click="true">
           </artwork>
           <artwork
               class="mr-2"
-              :punk-id="getRandomPunkId()"
-              :frame-id="'0010'"
-              :key="componentKey">
+              :punk-id="punkIds[2]"
+              :frame-id="frameIds[2]"
+              :allow-click="true">
           </artwork>
           <artwork
-              :punk-id="getRandomPunkId()"
-              :frame-id="'0007'"
-              :key="componentKey">
+              :punk-id="punkIds[3]"
+              :frame-id="frameIds[3]"
+              :allow-click="true">
           </artwork>
         </div>
-
         <div class="flex justify-end mr-16">
             <a class="flex items-center hover:text-blue-700 cursor-pointer" @click="forceRerender">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24">
@@ -82,15 +81,11 @@
               <span class="inline ml-2">Refresh Frames</span>
             </a>
         </div>
-
-      
-
     <sign-up></sign-up>
     <p class="text-center">
       * Not affiliated with LarvaLabs. Punks sold separately. 
     </p>
     </main>
-    
   </div>
 </div>
 </template>
@@ -102,9 +97,10 @@ import SignUp from '../components/SignUp.vue'
 export default {
   data() {
     return {
-      maxPunkId: 10000,
-      maxFrameId: 11,
-      componentKey: 0
+      maxPunkId: 9999,
+      maxFrameId: 19,
+      frameIds: ['0019', '0007', '0008', '0009'],
+      punkIds: ['0000', '0001', '0002', '0003'],
     }
   },
   components: {
@@ -118,8 +114,29 @@ export default {
     getRandomFrameId() {
       return Math.floor(Math.random() * this.maxFrameId).toString().padStart(4, '0')
     },
+    getFrameIds() {
+      let frameIds = []
+      while(frameIds.length < 4) {
+        const randomId = this.getRandomFrameId()
+        if (frameIds.findIndex(id => id === randomId) === -1) {
+          frameIds.push(randomId)
+        }
+      }
+      return frameIds
+    },
+    getPunkIds() {
+      let punkIds = []
+      while(punkIds.length < 4) {
+        const randomId = this.getRandomPunkId()
+        if (punkIds.findIndex(id => id === randomId) === -1) {
+          punkIds.push(randomId)
+        }
+      }
+      return punkIds
+    },
     forceRerender() {
-      this.componentKey += 1;
+      this.frameIds = this.getFrameIds()
+      this.punkIds = this.getPunkIds()
     }
   }
 }

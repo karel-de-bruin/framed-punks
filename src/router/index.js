@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Art from '../views/Art.vue'
+import Preview from '../views/Preview.vue'
 
 const routes = [
   {
@@ -12,6 +13,12 @@ const routes = [
     path: '/punk/:punkId/frame/:frameId',
     name: 'Art',
     component: Art,
+    props: true
+  },
+  {
+    path: '/frame/:frameId',
+    name: 'Preview',
+    component: Preview,
     props: true
   },
 ]
