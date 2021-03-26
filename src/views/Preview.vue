@@ -87,11 +87,10 @@
               </svg>
               Preview
             </span>
-            <h4 class="flex justify-center items-center text-blue-500 mt-2">
-              <span class="font-bold text-3xl" v-if="frame"
-                >"{{ frame.title }}"</span
-              >
-              <span class="font-bold text-3xl" v-else>Frame {{ frameId }}</span>
+            <h6 class="uppercase text-xs text-center">Frame {{frame.id}}</h6>
+            <h4 class="font-bold text-3xl text-center text-blue-500 mt-2">
+              "{{ frame.title }}"
+              
             </h4>
             <div class="text-center mt-4 max-w-lg mx-auto my-4" v-if="frame">
               {{ frame.description }}
