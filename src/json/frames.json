@@ -1,0 +1,467 @@
+[
+    {
+        "id": "0000",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224838173045293057",
+        "title": "Flawed",
+        "description": "A near perfect frame. Rumor has it the creator died just minutes before completing his masterpiece.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Minimalist",
+                "rarity": "15"
+            }
+        ]
+    },
+    {
+        "id": "0001",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224839272556920833",
+        "title": "Alpha",
+        "description": "Simple. Understated. Subtle. Cheap? ... Depends who you ask",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Minimalist",
+                "rarity": "15"
+            }
+        ]
+    },
+    {
+        "id": "0002",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224840372068548609",
+        "title": "Checkers",
+        "description": "Checkers - a punk staple for belts, wristbands, shoes and now frames!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Minimalist",
+                "rarity": "15"
+            }
+        ]
+    },
+    {
+        "id": "0003",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224841471580176385",
+        "title": "Pride",
+        "description": "Celebrate your Punk with a frame that supports its uniqueness!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0004",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224842571091804161",
+        "title": "The Greenies",
+        "description": "Some punks look great in green. Don't @ me.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Handcrafted",
+                "rarity": "20"
+            }
+        ]
+    },
+    {
+        "id": "0005",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224843670603431937",
+        "title": "Luck of the Irish",
+        "description": "Your punk may or may not be Irish, but this frame is Irish AF, and proud of it!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0006",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224844770115059713",
+        "title": "Mah0gany",
+        "description": "Close your eyes and you can almost smell the rich woodiness of this frame. A classic frame in every sense. Bonus - it cost the planet less than one tree (probably)!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Handcrafted",
+                "rarity": "20"
+            }
+        ]
+    },
+    {
+        "id": "0007",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224845869626687489",
+        "title": "Purple Haze",
+        "description": "Who's more stoned? You or your prized punk? The answer doesn't matter, take another hit and appreciate the beauty.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Shiny",
+                "rarity": "15"
+            },
+            {
+                "type": "Series",
+                "value": "Handcrafted",
+                "rarity": "20"
+            }
+        ]
+    },
+    {
+        "id": "0008",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224846969138315265",
+        "title": "The Telly",
+        "description": "Look mom, my punk is on the telly again! Yes, that pyramid scheme thing...",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Fancy",
+                "rarity": "15"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0009",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224848068649943041",
+        "title": "Flaming Punk",
+        "description": "We don't need no water, let the mofo system burn!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Shiny",
+                "rarity": "15"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0010",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224849168161570817",
+        "title": "Spotlight",
+        "description": "Shed some light on how rich you are with this spotlight frame.",
+        "properties": [
+            {
+                "type": "Easter Egg",
+                "value": "Missing Punk",
+                "rarity": "5"
+            },
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Shiny",
+                "rarity": "15"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0011",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224850267673198593",
+        "title": "The Crown",
+        "description": "Mirror, mirror, in the ether. Who's the punkiest of them all?",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Exclusive",
+                "rarity": "10"
+            },
+            {
+                "type": "Series",
+                "value": "OG Punks Only",
+                "rarity": "10"
+            }
+        ]
+    },
+    {
+        "id": "0012",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224851367184826369",
+        "title": "Burning Down",
+        "description": "The world is burning. Only punks can save us now!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Fancy",
+                "rarity": "15"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0013",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224852466696454145",
+        "title": "The View",
+        "description": "Larva Labs was nice, but you can't beat this view.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0014",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224853566208081921",
+        "title": "Rest in Punk",
+        "description": "The hype cycle is over. Punk is officially dead.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0015",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224854665719709697",
+        "title": "Nyan Punk",
+        "description": "Cats are punk AF!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Fancy",
+                "rarity": "15"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0016",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224855765231337473",
+        "title": "The Balcony",
+        "description": "Punk is not all doom and gloom. Sometimes, it's sunshine and anarchy.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0017",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224856864742965249",
+        "title": "Stereo Typical",
+        "description": "Skulls, so stereotypical... So awesome!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Fun With Frames",
+                "rarity": "55"
+            }
+        ]
+    },
+    {
+        "id": "0018",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224857964254593025",
+        "title": "Planet of the Punks",
+        "description": "In a world where apes rule, bananas are used as currency and Ethereum never made it to 2.0",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Exclusive",
+                "rarity": "10"
+            },
+            {
+                "type": "Series",
+                "value": "OG Punks Only",
+                "rarity": "10"
+            }
+        ]
+    },
+    {
+        "id": "0019",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224859063766220801",
+        "title": "The Punk Standard",
+        "description": "I remember gold... The pre punk standard.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Standard",
+                "rarity": "60"
+            },
+            {
+                "type": "Series",
+                "value": "Handcrafted",
+                "rarity": "20"
+            }
+        ]
+    }
+]

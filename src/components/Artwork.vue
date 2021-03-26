@@ -7,11 +7,12 @@
                 'full-size': fullSize,
                 'cursor-pointer': allowClick
             }"
-            @click="allowClick && $router.push({ name: 'Art', params: { punkId: punkId, frameId: frameId } })">
+            @click="allowClick && $router.push({ name: 'Preview', params: { frameId: frameId }, query: { punk: punkId} })">
             <div 
                 class="punk-container"
                 :class="{'full-size': fullSize}">
                 <img 
+                    v-if="frameId != 10 || punkId"
                     :src="(punkId === null) ? '/placeholder.png' : 'https://www.larvalabs.com/public/images/cryptopunks/punk' + punkId + '.png'"
                     class="punk image-rendering-pixelated"
                     :class="{'full-size': fullSize}"
@@ -103,35 +104,35 @@ export default {
 
 .full-size.placeholder-text {
     position: absolute;
-    left: 108px;
-    top: 206px;
-    font-size: 1.25rem;
+    left: 98px;
+    top: 166px;
+    font-size: 1.05rem;
     line-height: 1.75rem;
-    padding: 0.5rem 3rem;
+    padding: 0.4rem 2rem;
 }
 
 .full-size.frame-container {
-    width: 360px;
-    height: 360px;
+    width: 288px;
+    height: 288px;
 }
 
 .full-size.punk-container {
-    width: 240px;
-    height: 240px;
-    top: 60px;
-    left: 60px;
+    width: 192px;
+    height: 192px;
+    top: 48px;
+    left: 48px;
 }
 
 .full-size.punk {
-    top: -1px;
-    left: -1px;
-    width: 241px;
-    height: 241px;
+    top: 0;
+    left: 0;
+    width: 192px;
+    height: 192px;
 }
 
 .full-size.frame {
-    width: 360px;
-    height: 360px;
+    width: 288px;
+    height: 288px;
 }
 
 
