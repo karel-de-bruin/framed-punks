@@ -122,7 +122,10 @@
           </svg>
         </a>
 
-        <div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 mt-8">
+       
+        
+        <sign-up></sign-up>
+         <div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 my-4">
               <div class="flex justify-center">
                 <div class="mr-16">
                   <a
@@ -179,9 +182,7 @@
               </div>
             </div>
           
-        
-        <sign-up></sign-up>
-        <p class="text-center text-gray-400">
+        <p class="text-sm text-center text-gray-400 mt-8">
           * Not affiliated with Larva Labs. Punks sold separately.
         </p>
       </main>

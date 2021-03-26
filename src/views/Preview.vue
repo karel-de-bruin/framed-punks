@@ -1,14 +1,14 @@
 <template>
   <div class="relative bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 py-8">
-      <nav class="hidden md:flex py-6 mx-2" aria-label="Breadcrumb">
-        <ol class="flex items-center space-x-4">
+      <nav class="flex py-2 md:my-6 mx-2" aria-label="Breadcrumb">
+        <ol class="w-full flex justify-center md:justify-start items-center space-x-4">
           <li>
             <div>
-              <a href="/" class="text-gray-400 hover:text-gray-500">
+              <router-link tag="a" to="/" class="text-gray-400 hover:text-gray-500">
                 <!-- Heroicon name: solid/home -->
                 <svg
-                  class="flex-shrink-0 h-5 w-5"
+                  class="flex-shrink-0 h-5 w-5 text-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -19,7 +19,7 @@
                   />
                 </svg>
                 <span class="sr-only">Home</span>
-              </a>
+              </router-link>
             </div>
           </li>
 
@@ -39,10 +39,9 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <a
-                href="/frame"
+              <router-link tag="a" to="/frame"
                 class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700"
-                >Frames</a
+                >Frames</router-link
               >
             </div>
           </li>
@@ -87,14 +86,12 @@
               </svg>
               Preview
             </span>
-            <h6 class="uppercase text-xs text-center">Frame {{frame.id}}</h6>
+            <h6 class="uppercase text-xs text-center mt-10 md:mt-4">Frame {{frame.id}}</h6>
             <h4 class="font-bold text-3xl text-center text-blue-500 mt-2">
               "{{ frame.title }}"
               
             </h4>
-            <div class="text-center mt-4 max-w-lg mx-auto my-4" v-if="frame">
-              {{ frame.description }}
-            </div>
+            
           </div>
           <div class="px-0 py-3 sm:p-5">
             <artwork
@@ -105,6 +102,7 @@
             >
             </artwork>
           </div>
+          
           <div class="flex flex-col px-4 sm:px-6 items-center">
             <div class="flex justify-center">
               <button
@@ -147,6 +145,9 @@
                   />
                 </svg>
               </button>
+            </div>
+            <div class="text-center mt-4 max-w-lg mx-auto mt-8 mb-4" v-if="frame">
+              {{ frame.description }}
             </div>
             <div
               class="w-full flex justify-around mt-6"

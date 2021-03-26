@@ -1,14 +1,14 @@
 <template>
   <div class="relative bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 py-8">
-      <nav class="hidden md:flex py-6 mx-2" aria-label="Breadcrumb">
-        <ol class="flex items-center space-x-4">
+      <nav class="flex py-6 mx-2" aria-label="Breadcrumb">
+        <ol class="w-full flex justify-center md:justify-start items-center space-x-4">
           <li>
             <div>
-              <a href="/" class="text-gray-400 hover:text-gray-500">
+              <router-link tag="a" to="/" class="text-gray-400 hover:text-gray-500">
                 <!-- Heroicon name: solid/home -->
                 <svg
-                  class="flex-shrink-0 h-5 w-5"
+                  class="flex-shrink-0 h-5 w-5 text-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -19,7 +19,7 @@
                   />
                 </svg>
                 <span class="sr-only">Home</span>
-              </a>
+              </router-link>
             </div>
           </li>
 
@@ -48,7 +48,13 @@
           </li>
         </ol>
       </nav>
-      <div class="max-w-2xl mx-auto">
+      <div class="w-full text-center hidden md:block">
+          <span class="text-xs mr-2">Showing 1-20 of</span> 
+          <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+  20
+</span>
+      </div>
+      <div class="max-w-2xl mx-auto mt-5">
         <div class="bg-white overflow-hidden md:shadow rounded-lg">
           <div class="px-4 pb-0 pt-2 md:pt-8 sm:px-6">
             <ul class="divide-y divide-gray-200">
@@ -66,7 +72,7 @@
                       </div>
                       <div class="min-w-0 flex-1 px-4">
                         <div>
-                            <h6 class="uppercase text-xs mb-2">Frame {{frame.id}}</h6>
+                            <h6 class="uppercase text-xs mb-2 text-center md:text-left">Frame {{frame.id}}</h6>
                           <h4 class="text-blue-500 font-bold text-xl">
                             "{{ frame.title }}"
                           </h4>
