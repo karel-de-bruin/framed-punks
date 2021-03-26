@@ -66,7 +66,8 @@
                       </div>
                       <div class="min-w-0 flex-1 px-4">
                         <div>
-                          <h4 class="text-gray-500 font-bold text-xl">
+                            <h6 class="uppercase text-xs mb-2">Frame {{frame.id}}</h6>
+                          <h4 class="text-blue-500 font-bold text-xl">
                             "{{ frame.title }}"
                           </h4>
                         </div>
