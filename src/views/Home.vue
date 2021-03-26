@@ -58,7 +58,7 @@
               Augment your prized punks* and display them in our handcrafted
               frames.
             </p>
-            <router-link to="/frame" tag="button" class="inline-flex items-center px-6 py-3 my-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <router-link to="/frame" tag="button" class="inline-flex items-center px-6 py-3 my-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
               Browse Frames
               <svg class="ml-3 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 

@@ -12,8 +12,8 @@
             <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
                 <form class="sm:flex" @submit.prevent="submitForm">
                     <label for="email" class="sr-only">Email address</label>
-                    <input id="email" v-model="email" name="email" type="email" autocomplete="email" required class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white rounded-md" placeholder="Enter your email">
-                    <button type="submit" :disabled="loading" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent shadow text-base font-medium rounded-md text-white bg-black hover:bg-blue-400 disabled:bg-blue-200 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">
+                    <input id="email" v-model="email" name="email" type="email" autocomplete="email" required class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-700 focus:ring-white rounded-md" placeholder="Enter your email">
+                    <button type="submit" :disabled="loading" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent shadow text-base font-medium rounded-md text-white bg-black hover:bg-blue-400 disabled:bg-blue-200 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">
                         <span class="spinner mr-2" v-if="loading"></span> Notify me
                     </button>
                 </form>
