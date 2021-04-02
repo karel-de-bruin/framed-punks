@@ -88,7 +88,7 @@ export default {
     left: 0;
     right: 0;
     width: 180px;
-    height: 180px;
+    height: 178px;
 }
 
 .placeholder-text {
@@ -132,7 +132,7 @@ export default {
 
 .full-size.frame {
     width: 288px;
-    height: 288px;
+    height: 287px;
 }
 
 

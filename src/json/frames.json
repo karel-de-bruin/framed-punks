@@ -463,5 +463,51 @@
                 "rarity": "20"
             }
         ]
+    },
+    {
+        "id": "0020",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224861262789476353",
+        "title": "Laser Eyes",
+        "description": "Nobody puts punky in a box... Well, we do, actually.",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Fancy",
+                "rarity": "23"
+            },
+            {
+                "type": "Series",
+                "value": "Collabs",
+                "rarity": "9"
+            }
+        ]
+    },
+    {
+        "id": "0021",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88645836519866546024538660004602830367841289214266787964108224870058882498561",
+        "title": "Dystopia",
+        "description": "In the future, punks are the ruling class!",
+        "properties": [
+            {
+                "type": "Perfect Fit",
+                "value": "CryptoPunks",
+                "rarity": "100"
+            },
+            {
+                "type": "Rarity",
+                "value": "Fancy",
+                "rarity": "23"
+            },
+            {
+                "type": "Series",
+                "value": "Collabs",
+                "rarity": "9"
+            }
+        ]
     }
 ]

@@ -86,7 +86,10 @@
               </svg>
               Preview
             </span>
-            <h6 class="uppercase text-xs text-center mt-10 md:mt-4">Frame {{frame.id}}</h6>
+            <h6 class="uppercase text-xs text-center mt-10 md:mt-4">            
+              Frame {{frame.id}}
+            </h6>
+            
             <h4 class="font-bold text-3xl text-center text-blue-500 mt-2">
               "{{ frame.title }}"
               
